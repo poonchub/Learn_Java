@@ -5,8 +5,8 @@ public class B01_Array {
         /*
         Array แบบ Primitive Data Type
             การสร้าง array
-                type[] arrayName = new type[ขนาด];
-                type[] arrayName = {สมาชิก,...};
+                type [] arrayName = new type[ขนาด];
+                type [] arrayName = {สมาชิก,...};
 
             การเปลี่ยนค่าสมาชิก
                 arrayName[index] = new value;
@@ -16,7 +16,7 @@ public class B01_Array {
         */
 
         // แบบกำหนดขนาดไว้
-        int[] number1 = new int[4];
+        int [] number1 = new int[4];
 
         // กำหนดค่าลงไป
         number1[0] = 5;

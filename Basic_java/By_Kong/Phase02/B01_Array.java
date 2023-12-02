@@ -5,14 +5,18 @@ public class B01_Array {
         /*
         Array แบบ Primitive Data Type
             การสร้าง array
-                type [] arrayName = new type[ขนาด];
-                type [] arrayName = {สมาชิก,...};
+                type [จำนวน]arrayName = new type[ขนาด];   
+                type []arrayName = {สมาชิก,...};
+                หรือ
+                type arrayName[จำนวน] = new type[ขนาด];
+                type arrayName[] = {สมาชิก,...};
 
             การเปลี่ยนค่าสมาชิก
-                arrayName[index] = new value;
+                arrayName[index] = newvalue;
 
             การนับจำนวนสมาชิก
                 type variableName = arrayName.length;
+
         */
 
         // แบบกำหนดขนาดไว้

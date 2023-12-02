@@ -8,6 +8,7 @@ public class A01_BMI {
         float mass = sc.nextFloat();
         System.out.print("Enter your height(m) : ");
         float height = sc.nextFloat();
+        sc.close();
 
         float bmi = mass/(height*height);
 

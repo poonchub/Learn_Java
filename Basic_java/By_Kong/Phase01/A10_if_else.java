@@ -20,6 +20,7 @@ public class A10_if_else {
         int num1 = sc.nextInt();
         System.out.print("Enter number 2 : ");
         int num2 = sc.nextInt();
+        sc.close();
 
         if (num1>num2){
             System.out.println("number1 > number2");

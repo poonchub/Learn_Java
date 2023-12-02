@@ -27,6 +27,7 @@ public class A07_Scaner {
         String name = sc.nextLine();
         System.out.print("Enter your age = ");
         int age = sc.nextInt();
+        sc.close();
 
         System.out.println("Your name is "+name);
         System.out.println("Your age is "+age);

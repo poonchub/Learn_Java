@@ -16,6 +16,7 @@ public class A14_WhileLoop {
         
         System.out.print("Enter a number : ");
         int n = sc.nextInt();
+        sc.close();
         int count = 1 ;
 
         while (count<=n){

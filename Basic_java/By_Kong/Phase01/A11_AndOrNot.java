@@ -8,6 +8,7 @@ public class A11_AndOrNot {
         int num1 = sc.nextInt();
         System.out.print("Enter number 2 : ");
         int num2 = sc.nextInt();
+        sc.close();
 
         if (num1>=0 && num2>=0){
             System.out.println("number1 and number2 >= 0");

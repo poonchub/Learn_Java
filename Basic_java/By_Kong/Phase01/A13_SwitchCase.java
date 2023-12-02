@@ -21,6 +21,7 @@ public class A13_SwitchCase {
         Scanner sc = new Scanner(System.in);
         System.out.print("Day number : ");
         int n = sc.nextInt();
+        sc.close();
 
         String name;
 

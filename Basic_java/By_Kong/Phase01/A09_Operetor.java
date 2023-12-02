@@ -28,6 +28,7 @@ public class A09_Operetor {
         int num1 = sc.nextInt();
         System.out.print("Enter number 2 : ");
         int num2 = sc.nextInt();
+        sc.close();
 
         // ตัวดำเนินการทางคณิตศาสตร์
         System.out.println("\nSum of number = "+(num1+num2));

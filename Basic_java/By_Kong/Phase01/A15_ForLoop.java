@@ -13,6 +13,7 @@ public class A15_ForLoop {
         
         System.out.print("Enter a number : ");
         int n = sc.nextInt();
+        sc.close();
 
         for (int i = 1 ; i <= n ; i++){
             System.err.println(i);

@@ -13,7 +13,9 @@ public class A16_DoWhlie {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number : ");
         int n = sc.nextInt();
+        sc.close();
         int count = 1;
+
         do {
             System.out.println(count);
             count++;

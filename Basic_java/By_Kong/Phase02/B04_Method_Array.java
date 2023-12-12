@@ -19,6 +19,8 @@ public class B04_Method_Array {
         System.out.println("Max index in array B = "+maxIndex(B));
         System.out.println("Result = "+compareArray(A, B));
 
+        
+
     }
     
     // method แสดงค่าใน array
@@ -67,4 +69,12 @@ public class B04_Method_Array {
             return false;
         }
     }
+
+    // method สลับค่า array
+    static void swapArray(int [] x, int y, int z){
+        int temp = x[y];
+        x[y] = x[z];
+        x[z] = temp;
+    }
+
 }

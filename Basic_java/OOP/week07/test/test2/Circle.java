@@ -1,4 +1,4 @@
-package Basic_java.OOP.week07.test.test2;
+package week07.test.test2;
 
 public class Circle extends Geometry{
     public Circle(double radius) {

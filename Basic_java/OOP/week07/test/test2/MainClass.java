@@ -1,4 +1,4 @@
-package Basic_java.OOP.week07.test.test2;
+package week07.test.test2;
 
 public class MainClass {
     public static void main(String[] args) {

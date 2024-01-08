@@ -1,4 +1,4 @@
-package Basic_java.OOP.week07.test.test3;
+package week07.test.test3;
 
 public class ElectricCar extends Vehicle{
     private String battery;

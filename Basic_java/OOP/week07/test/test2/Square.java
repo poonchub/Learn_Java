@@ -1,4 +1,4 @@
-package Basic_java.OOP.week07.test.test2;
+package week07.test.test2;
 
 public class Square extends Geometry{
     public Square(double length) {

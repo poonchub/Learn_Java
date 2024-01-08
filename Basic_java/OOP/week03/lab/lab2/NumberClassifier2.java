@@ -1,4 +1,4 @@
-package Basic_java.OOP.week03.lab.lab2;
+package week03.lab.lab2;
 
 import java.util.Scanner;
 

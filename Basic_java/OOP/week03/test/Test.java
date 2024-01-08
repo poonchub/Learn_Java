@@ -1,4 +1,4 @@
-package Basic_java.OOP.week03.lab;
+package week03.test;
 
 import java.text.DecimalFormat;
 

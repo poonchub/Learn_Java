@@ -1,4 +1,4 @@
-package Basic_java.OOP.week04.lab.lab2;
+package week04.lab.lab2;
 
 import java.util.*;
 

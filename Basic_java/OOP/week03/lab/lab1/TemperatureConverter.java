@@ -1,4 +1,4 @@
-package Basic_java.OOP.week03.lab.lab1;
+package week03.lab.lab1;
 
 import java.util.Scanner;
 public class TemperatureConverter {

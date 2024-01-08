@@ -27,6 +27,7 @@ public class MyMaxScore {
             System.out.print("Input subject: ");
             sub[i] = sc.next();
         }
+        
     }
 
     public static void inputScore(int nfs, int []score){
@@ -54,4 +55,5 @@ public class MyMaxScore {
             System.out.println(item);
         }
     }
+
 }

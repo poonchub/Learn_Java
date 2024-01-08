@@ -7,7 +7,7 @@ public class MainClass {
 
         System.out.println();
 
-        Dog dog2 = new Dog();
+        // Dog dog2 = new Dog();
 
         System.out.println();
 

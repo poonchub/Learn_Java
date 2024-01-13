@@ -1,4 +1,4 @@
-package week07.test.test2;
+package week08.test.test2;
 
 public class Geometry {
     private double length;

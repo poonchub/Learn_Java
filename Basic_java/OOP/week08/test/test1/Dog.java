@@ -1,4 +1,4 @@
-package week07.test.test1;
+package week08.test.test1;
 
 public class Dog extends Animal{
     public Dog(){

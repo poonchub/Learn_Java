@@ -1,4 +1,4 @@
-package week07.test.test1;
+package week08.test.test1;
 
 public class MainClass {
     public static void main(String[] args){
@@ -7,7 +7,7 @@ public class MainClass {
 
         System.out.println();
 
-        // Dog dog2 = new Dog();
+        Dog dog2 = new Dog();
 
         System.out.println();
 

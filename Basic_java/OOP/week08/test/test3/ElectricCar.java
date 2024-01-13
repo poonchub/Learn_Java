@@ -1,4 +1,4 @@
-package week07.test.test3;
+package week08.test.test3;
 
 public class ElectricCar extends Vehicle{
     private String battery;

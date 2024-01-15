@@ -1,9 +1,11 @@
 package week09.test.test1;
 
-public class Lecturer .........(7).........{
+final public class Lecturer extends Employee{
+
     private double salary;
+
     public Lecturer(String name, String gender, double salary) {
-        .........(8).........;
+        super(name, gender, "Lecturer");
         this.salary = salary;
     }
 

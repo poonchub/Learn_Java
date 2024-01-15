@@ -1,23 +1,27 @@
 package week09.test.test1;
 
-.........(1)......... class Person {
+abstract class Person {
     private String name;
-    .........(2)......... String gender;
+    private static String gender;
+
     public Person(String name, String gender) {
         this.name = name;
         this.gender = gender;
     }
+
     public String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;
     }
+
     public String getGender() {
         return gender;
     }
-    .........(3)......... String getBio() {
+    public String getBio() {
         return "Name: " + name + ", Gender: " + gender;
     }
-    .........(4)......... void getDetails();
+
+    public abstract void getDetails();
 }

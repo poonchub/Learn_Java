@@ -1,9 +1,10 @@
 package week09.test.test1;
 
-public class Student extends .........(11)......... {
+public class Student extends Person {
     private final String id;
+    
     Student(String name, String gender, String id) {
-        .........(12).........;
+        super(name, gender);
         this.id = id;
     }
     

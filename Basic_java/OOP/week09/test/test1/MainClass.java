@@ -9,6 +9,7 @@ public class MainClass {
         55000.25);
         persons[3] = new Researcher("Kate Winslet", "Female", 42024.30);
         persons[0].setName("Eddie Redmayne");
+
         for (Person person : persons) {
         System.out.print(person.getBio() + ", ");
         person.getDetails();

@@ -2,7 +2,7 @@ package week09.test.test1;
 
 abstract class Person {
     private String name;
-    private static String gender;
+    private String gender;
 
     public Person(String name, String gender) {
         this.name = name;

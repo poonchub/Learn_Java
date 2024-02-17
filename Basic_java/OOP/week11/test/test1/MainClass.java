@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
-        int num1, num2;
+        int num1 = 0, num2 = 0;
         int[] arr1 = { 20, 40, 45, 60, 75, 90 };
         int[] arr2 = { 1, 2, 0, 5, 3 };
 
@@ -14,10 +14,22 @@ public class MainClass {
         try {
             System.out.print("Enter num1: ");
             num1 = sc.nextInt();
-        
+        }
+        catch (InputMismatchException ex){
+            System.out.println("Exception occured: "+ex);
+            System.out.println("The index must be an integer.");
+            System.exit(1);
+        }
+        try {
             System.out.print("Enter num2: ");
             num2 = sc.nextInt();
-
+        }
+        catch (InputMismatchException ex){
+            System.out.println("Exception occured: "+ex);
+            System.out.println("The index must be an integer.");
+            System.exit(2);
+        }
+        try {
             System.out.println(arr1[num1] + " / " + arr2[num2] + " = " + arr1[num1] / arr2[num2]);
         }
         catch (ArithmeticException ex){
@@ -29,13 +41,8 @@ public class MainClass {
         }
         catch (ArrayIndexOutOfBoundsException ex){
             System.out.println("Exception occured: "+ex);
-            System.out.println("The number you entered exceeds the size of the array.");
+            System.out.println("The entered number exceeds the array size.");
         }
-        catch (InputMismatchException ex){
-            System.out.println("Exception occured: "+ex);
-            System.out.println("The index must be an integer.");
-        }
-
         sc.close();
     }
 }
